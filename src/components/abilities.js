@@ -17,28 +17,28 @@ const Abilities = () =>{
             <div className="container margen-habilidades">
                 <div className="row align-items-start">
 
-                    <h2 class="centrar color-verde-base">Habilidades</h2>
+                    <h2 className="centrar color-verde-base">Habilidades</h2>
                     <br /><br /><br />
                     <div className='col'>
                         <h3 className='text-white centrar'>
                             Programación
                         </h3>
-                        <p className='text-white'>Actualmente estoy en constante aprendizaje en temas relacionados a programación, nuevos lenguajes o tecnologías.</p>
-                        <img data-aos="zoom-in-up" class="habilities-img" src={Abilities1} alt=""></img>
+                        <p className='text-white centrar'>Actualmente estoy en constante aprendizaje en temas relacionados a programación, nuevos lenguajes o tecnologías.</p>
+                        <img data-aos="zoom-in-up" className="habilities-img " src={Abilities1} alt=""></img>
                     </div>
                     <div className='col'>
                         <h3 className='text-white centrar'>
-                            Programación
+                            Hardware y PC
                         </h3>
-                        <p className='text-white'>Actualmente estoy en constante aprendizaje en temas relacionados a programación, nuevos lenguajes o tecnologías.</p>
-                        <img data-aos="zoom-in-up" class="habilities-img" src={Abilities2} alt=""></img>
+                        <p className='text-white centrar'>Desde los 13 años, he aprendido acerca de hardware de PC, componentes, mantenimiento, especificaciones, etc, todo de manera autodidacta.</p>
+                        <img data-aos="zoom-in-up" className="habilities-img" src={Abilities2} alt=""></img>
                     </div>
                     <div className='col'>
                         <h3 className='text-white centrar'>
-                            Programación
+                            Edición de video
                         </h3>
-                        <p className='text-white'>Actualmente estoy en constante aprendizaje en temas relacionados a programación, nuevos lenguajes o tecnologías.</p>
-                        <img data-aos="zoom-in-up" class="habilities-img" src={Abilities3} alt=""></img>
+                        <p className='text-white centrar'>Durante un tiempo tuve activo un canal de YouTube, el cual me acerco a investigar acerca de la edición de videos para mejorar mi calidad.</p>
+                        <img data-aos="zoom-in-up" className="habilities-img" src={Abilities3} alt=""></img>
                     </div>
                 </div>
                 

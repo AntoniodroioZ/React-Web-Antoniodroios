@@ -7,15 +7,15 @@ h2 {
 }
 
 .icono-home-navbar {
-    padding-left: .6rem;
+    padding-left: .8rem;
 }
 
 .icono-portfolio-navbar {
-    padding-left: 1.6rem;
+    padding-left: 1.8rem;
 }
 
 .icono-contact-navbar {
-    padding-left: 1.4rem;
+    padding-left: 1.7rem;
 }
 
 
@@ -62,6 +62,14 @@ h2 {
     display: block;
     margin: auto;
 }
+.languages-img {
+    /* border-radius: 50%; */
+    padding: 1rem;
+    height: 8rem;
+    width: 8rem;
+    display: block;
+    margin: auto;
+}
 
 .margen {
     margin-top: 12rem;
@@ -69,7 +77,7 @@ h2 {
 }
 
 .margen-habilidades {
-    padding-top: 6rem;
+    padding-top: 5rem;
     margin-bottom: 1rem;
 }
 
@@ -79,6 +87,21 @@ body {
     background-attachment: fixed;
     background-size: cover;
     background-color: #1B1919;
+    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Fira Sans', sans-serif; */
+}
+
+.espacio-1rem{
+    padding-top: 1.5rem;
+}
+
+.justify-text{
+    text-align: justify;
+}
+
+.contact-space{
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 
 @media (max-width: 767px) {
@@ -116,4 +139,8 @@ body {
     .linea-div {
         width: 80%;
     }
+    /* .contenedor-contacto-footer{
+        margin: 1rem 5rem 1rem 5rem;
+    } */
+
 }
