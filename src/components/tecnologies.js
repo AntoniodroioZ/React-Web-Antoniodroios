@@ -234,7 +234,7 @@ const Tecnologies = () =>{
                 </div>
                 <div className='col'>           
                     <h4 data-aos="zoom-in-down" className='text-white centrar'>
-                        Blender
+                        Ubuntu
                     </h4> 
                     <div className="centrar" >
                         <img data-aos="zoom-in-down" className="languages-img" src={tecnologies16} alt="" />

@@ -1,26 +1,28 @@
 import React from 'react';
 import './App.css';
 
-import Navbar from './components/Navbar';
-import Hero from './components/Hero';
-import Abilities from './components/abilities';
-import Footer from './components/footer';
-import Division from './components/division';
-import Tecnologies from './components/tecnologies';
+import {BrowserRouter, Route, Routes} from "react-router-dom";
 
-function App() {
+import Home from './pages/Home';
+import NotFoundPage from './pages/NotFoundPage';
+import Portfolio from './pages/Portfolio';
+import Navbar from './components/Navbar';
+import Contact from './pages/Contact';
+
+export default function App() {
   return (
-    <div>      
+    <BrowserRouter>
 
       <Navbar/>
-      <Hero/>
-      <Division/>
-      <Abilities/>
-      <Division/>     
-      <Tecnologies/> 
-      <Footer/>
-    </div>
+
+      <Routes>
+      <Route path="/" element={<div><Home/></div>}/>
+      <Route path="/portfolio" element={<div><Portfolio/></div>}/>
+      <Route path="/contact" element={<div><Contact/></div>}/>
+      <Route path="*" element={<div><NotFoundPage/></div>}/>
+      </Routes>
+    </BrowserRouter>
   );
 }
 
-export default App;
+

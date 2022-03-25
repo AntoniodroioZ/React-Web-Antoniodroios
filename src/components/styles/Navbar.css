@@ -19,6 +19,13 @@ h2 {
 }
 
 
+.page-selection{
+    text-decoration: none !important;
+    padding: 10px !important;
+    color: #ffffff !important;
+    background-color: #3E432E!important;
+    border-radius: 6px !important;
+}
 
 .centrar {
     text-align: center;
@@ -105,6 +112,9 @@ body {
 }
 
 @media (max-width: 767px) {
+    h1{
+        font-size: 2.6rem;
+    }
     .icono-home-navbar {
         padding-left: 0rem;
     }

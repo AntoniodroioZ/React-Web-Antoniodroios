@@ -17,7 +17,7 @@ const Hero = () =>{
                     <div className="row py-5 align-items-start borde-5">
 
                         <div className="col centrar-texto">
-                            <h1 data-aos="fade-right" className="centrar text-white">¡Hola y bienvenido a antoniodroios.com!</h1>
+                            <h1 data-aos="fade-right" className="centrar text-white">¡Hola y bienvenido a antoniodroios!</h1>
                             <div className="container linea-div">            
                             </div>
                             <p className="centrar text-white espacio-1rem">Mi nombre es Antonio</p>
